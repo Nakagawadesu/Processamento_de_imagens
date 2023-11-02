@@ -1,0 +1,40 @@
+Exercícios
+Utilize as imagens
+
+lena.png
+unequalized.jpg
+imagem_Folha.jpg
+disponíveis no repositório da aula 5. Selecione e utilize também uma imagem de sua preferência (colorida) de tamanho 500x500. Caso seja maior, procure redimensionar/recortar. Nos exercícios a seguir, essa imagem selecionada pelo aluno será chamada de "img_aluno". Responda às questões a seguir.
+
+1) Implemente o algoritmo para converter para níveis de cinza todas as imagens
+ 
+2) Implemente o algoritmo que gera o negativo e utilize-o nas imagens "lena.png", "imagem_Folha.jpg" e "img_aluno".
+ 
+3) Implemente o ajuste de contraste (normalização) e utilize nas imagens "lena.png", "imagem_Folha.jpg" e "img_aluno"
+ 
+4) Implemente o operador logarítmico na imagem "lena.png", "imagem_Folha.jpg" e "img_aluno"
+ 
+5) Utilize o algoritmo de histograma da seguinte forma:
+(i) Utilize o algoritmo de conversão de níveis de cinza na imagem “unequalized.jpg” para que fique com apenas uma camada. Em seguida, utilize histograma nessa imagem com uma camada.
+
+(ii) Utilize histograma em cada camada R, G e B de “img_aluno”.
+
+(iii) Utilize histograma em cada camada R, G e B de “imagem_Folha.jpg”.
+
+ 
+ 
+ 
+6) Implemente a equalização de histograma. Utilize-o nas imagens "lena.png", "unequalized.jpg", "imagem_Folha.jpg" e "img_aluno"
+ 
+7) Na imagem "imagem_Folha.jpg", faça as seguintes operações:
+a) transforme para o canal de cor HSL (cv2.COLOR_BGR2HLS)
+
+b) Separe cada canal para poder obter imagem de H, imagem de L e imagem S. (h = img[:,:,0], l = img[:,:,1], s= img[:,:,2])
+
+c) Aplique a equalização do histograma no canal L, formando o canal L_equalizado
+
+d) Junte os canais novamente para formar a imagem H, L_equalizado, S
+
+e) converta novamente para uma imagem RGB
+
+f) compare as duas imagens e verique o que modificou. (Se preferir pode plotar os histogramas).
