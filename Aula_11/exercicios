@@ -1,0 +1,27 @@
+Exercícios
+Aplique os algoritmos implementados nesta atividade nas imagens em níveis de cinza (apenas uma camada) de “img_aluno1” e “img_aluno2”.
+
+Considere a escolha de img_aluno1 com imagem de paisagem
+Considere a escolha de img_aluno2 com imagem que contenha pessoa(s)
+*Podem se basear no exemplo de função image_convolution ou cv2.filter2D
+
+1 - Implemente o filtro de suavização pela média da vizinhança
+ 
+2 - Implemente o filtro de suavização pela média dos k vizinhos mais próximos
+ 
+3 -  Implemente o filtro da mediana.
+ 
+4 - Implemente o operador Laplaciano.
+ 
+5 - Implemente o detector de bordas de Roberts.
+ 
+6 - Implemente o detector de bordas de Prewitt
+ 
+7 - Implemente o detector de bordas de Sobel
+ 
+8 - Aplique os algoritmos solicitados abaixo. Selecione as imagens necessárias conforme a requisição dos próximos exercícios.
+
+Não há regras para essas imagens, podem ser de qualquer coisa, coloridas ou escala de cinza.
+Escolha duas imagens, realize a adição destas.
+ 
+Escolha duas imagens, realize a subtração destas. O ideal é para representar a remoção de fundo.
