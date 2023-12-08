@@ -1,0 +1,6 @@
+train: /home/matheus/dataset/images/train
+val: /home/matheus/dataset/images/val
+test: /home/matheus/dataset/images/test
+
+nc: 2  
+names: ['person', 'person-like']

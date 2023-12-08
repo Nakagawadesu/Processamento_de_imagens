@@ -12,12 +12,12 @@ plt.figure(figsize=(9, 3))
 
 plt.subplot(1, 2, 1)
 plt.imshow(image, cmap='gray')
-plt.title('Original Image')
+plt.title('Image')
 plt.axis('off')
 
 plt.subplot(1, 2, 2)
 plt.imshow(dilation, cmap='gray')
-plt.title('Dilation (3x3)')
+plt.title('Dilation )')
 plt.axis('off')
 
 plt.show()

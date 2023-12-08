@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
   
-# creating a singly linked list
 class Coordinate:
     def __init__(self, x,y):
         self.x = x
